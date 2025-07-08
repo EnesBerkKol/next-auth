@@ -7,5 +7,5 @@ export default withAuth({
 });
 
 export const config = {
-  matcher: ["/protected/:path*"], // Koruma istediğin sayfalar
+  matcher: ["/protected/:path*"], // korumaya çalışılan sayfalar
 };
